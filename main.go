@@ -30,6 +30,7 @@ import (
 // -da_DK_ = 丹麦语
 // -cs_CZ_ = 捷克语
 var needDeleteLanguages = [...]string{"-tr_TR_","-sv_SE_","-sl_SI_","-ru_RU_","-ro_RO_","-pt_PT_","-pt_BR_","-pl_PL_","-nl_NL_","-ja_JP_","-ko_KR_","-it_IT_","-hu_HU_","-hr_HR_","-fr_FR_","-fi_FI_","-es_ES_","-en_GB_","-el_GR_","-da_DK_","-cs_CZ_"}
+var needDeleteLanguagesUpper = [...]string{"-TR_TR_","-SV_SE_","-SL_SI_","-RU_RU_","-RO_RO_","-PT_PT_","-PT_BR_","-PL_PL_","-NL_NL_","-JA_JP_","-KO_KR_","-IT_IT_","-HU_HU_","-HR_HR_","-FR_FR_","-FI_FI_","-ES_ES_","-EN_GB_","-EL_GR_","-DA_DK_","-CS_CZ_"}
 var needDeleleLanguageFiles = [...]string{"language.tr_TR_","language.sv_SE_","language.sl_SI_","language.ru_RU_","language.ro_RO_","language.pt_PT_","language.pt_BR_","language.pl_PL_","language.nl_NL_","language.ja_JP_","language.ko_KR_","language.it_IT_","language.hu_HU_","language.hr_HR_","language.fr_FR_","language.fi_FI_","language.es_ES_","language.en_GB_","language.el_GR_","language.da_DK_","language.cs_CZ_"}
 
 func getCurrentDir(path string) {
@@ -44,6 +45,15 @@ func getCurrentDir(path string) {
 		} else {
 			for _, s := range needDeleteLanguages {
 				if (strings.Contains(info.Name(), s)) {
+					fmt.Printf("正在删除需要精简的语言包文件, 相对路径是: %s/%s\n", path, info.Name())
+					err := os.Remove(path+"/"+info.Name())
+					if err!= nil {
+						fmt.Printf("文件删除失败，当前文件的相对路径为: %s/%s\n", path, info.Name())
+					}
+				}
+			}
+			for _, ss := range needDeleteLanguagesUpper {
+				if (strings.Contains(info.Name(), ss)) {
 					fmt.Printf("正在删除需要精简的语言包文件, 相对路径是: %s/%s\n", path, info.Name())
 					err := os.Remove(path+"/"+info.Name())
 					if err!= nil {
