@@ -39,7 +39,7 @@ CGO_ENABLED=0 GOOS=darwin GOARCH=arm64 go build main.go && mv main Reduced-Diagn
 
 
 | 语种  | 英文全称 | 中文全称 | 缩写 |
-|:---:|:---:|:---:|:---:|
+|:---|:---|:---|:---|
 |العربية | Arabic（Israel） | 阿拉伯语（以色列) | ar_IL |
 |العربية | Arabic（Egypt) | 阿拉伯语（埃及) | ar_EG |
 |中文     | Chinese Simplified | 中文简体  | zh_CN  |
