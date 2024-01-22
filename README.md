@@ -28,14 +28,15 @@
 
 language.cs_CZ_
 
+#### 交叉编译生成最后的文件
+```shell
 CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build main.go && mv main Reduced-Diagnostic-Data-Language-Pack_linux_amd64
 CGO_ENABLED=0 GOOS=windows GOARCH=amd64 go build main.go && mv main.exe Reduced-Diagnostic-Data-Language-Pack_windows_amd64.exe
 CGO_ENABLED=0 GOOS=windows GOARCH=386 go build main.go && mv main.exe Reduced-Diagnostic-Data-Language-Pack_windows_386.exe
 CGO_ENABLED=0 GOOS=darwin GOARCH=amd64 go build main.go && mv main Reduced-Diagnostic-Data-Language-Pack_darwin_amd64
 CGO_ENABLED=0 GOOS=darwin GOARCH=arm64 go build main.go && mv main Reduced-Diagnostic-Data-Language-Pack_darwin_arm64
+```
 
-
-目前需要保留 中文 德文 英文
 
 
 العربية	Arabic（Israel)	阿拉伯语（以色列)	ar_IL
