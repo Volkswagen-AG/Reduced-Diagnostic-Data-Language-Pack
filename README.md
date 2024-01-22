@@ -45,12 +45,11 @@ CGO_ENABLED=0 GOOS=darwin GOARCH=arm64 go build main.go && mv main Reduced-Diagn
 |中文     | Chinese Simplified | 中文简体  | zh_CN  |
 |中文     | Chinese Tradition |	中文繁体|	zh_TW|
 |中文     | Chinese	| 中文（香港) | zh_HK |
-
-Nederlands	Dutch （Netherlands)	荷兰语	nl_NL
-Nederlands	Dutch （Netherlands)	荷兰语（比利时)	nl_BE
-English	English（United States)	英语（美国)	en_US
-English	English（Australia)	英语（澳大利亚)	en_AU
-English	English（Canada)	英语（加拿大)	en_CA
+|Nederlands|Dutch （Netherlands)|	荷兰语|	nl_NL|
+|Nederlands	|Dutch （Netherlands)|	荷兰语（比利时)|nl_BE|
+|English|	English（United States)|	英语（美国)|	en_US|
+|English|	English（Australia)|	英语（澳大利亚)|	en_AU|
+|English|	English（Canada)|	英语（加拿大)|	en_CA|
 English	English（India)	英语（印度)	en_IN
 English	English（Ireland)	英语（爱尔兰)	en_IE
 English	English（New Zealand)	英语（新西兰)	en_NZ
