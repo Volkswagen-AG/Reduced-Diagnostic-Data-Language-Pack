@@ -45,46 +45,48 @@ CGO_ENABLED=0 GOOS=darwin GOARCH=arm64 go build main.go && mv main Reduced-Diagn
 |中文     | Chinese Simplified | 中文简体  | zh_CN  |
 |中文     | Chinese Tradition |	中文繁体|	zh_TW|
 |中文     | Chinese	| 中文（香港) | zh_HK |
-|Nederlands|Dutch （Netherlands)|	荷兰语|	nl_NL|
-|Nederlands	|Dutch （Netherlands)|	荷兰语（比利时)|nl_BE|
+|Nederlands | Dutch （Netherlands)|	荷兰语|	nl_NL|
+|Nederlands | Dutch （Netherlands)|	荷兰语（比利时)|nl_BE|
 |English|	English（United States)|	英语（美国)|	en_US|
-|English|	English（Australia)|	英语（澳大利亚)|	en_AU|
-|English|	English（Canada)|	英语（加拿大)|	en_CA|
-|English|	English（India)|	英语（印度)|	en_IN|
-|English|	English（Ireland)|	英语（爱尔兰)|	en_IE|
-|English|	English（New Zealand)|	英语（新西兰)|	en_NZ|
-|English|	English（Singapore)|	英语（新加波)|	en_SG|
-|English|	English（South Africa)|	英语（南非)| en_ZA|
-|English|	English（United Kingdom)|	英语（英国)| en_GB|
+|English|	English（Australia) |	英语（澳大利亚)|	en_AU|
+|English|	English（Canada) |	英语（加拿大)|	en_CA|
+|English|	English（India) |	英语（印度)|	en_IN|
+|English|	English（Ireland) |	英语（爱尔兰)|	en_IE|
+|English|	English（New Zealand) |	英语（新西兰)|	en_NZ|
+|English|	English（Singapore) |	英语（新加波)|	en_SG|
+|English|	English（South Africa) |	英语（南非)| en_ZA|
+|English|	English（United Kingdom) |	英语（英国)| en_GB|
+|Français|	French|	法语|	fr_FR|
+|Français|	French|	法语（比利时)|	fr_BE|
+|Français|	French|	法语（加拿大)|	fr_CA|
+|Français|	French|	法语（瑞士)|fr_CH|
+|Deutsch|	German|	德语|	de_DE|
+|Deutsch|	German|	德语（列支敦斯登)|	de_LI|
+|Deutsch|	German|	德语（奥地利)|	de_AT|
+|Deutsch|	German|	德语（瑞士)|	de_CH|
+|Italiano|	Italian|	意大利语|	it_IT|
+|Italiano|	Italian|	意大利语（瑞士)|	it_CH|
+|Protuguês|	Portuguese|	葡萄牙语（巴西）|	pt_BR|
+|Protuguês|	Portuguese|	葡萄牙语|	pt_PT|
+|Español|	Spanish|	西班牙语|	es_ES|
+|Español|	Spanish|	西班牙语（美国)|	es_US|
+|বাংলা|	Bengali|	孟加拉语|	bn_BD|
+|বাংলা|	Bengali|	孟加拉语（印度)|	bn_IN|
+|hrvatski|	Croatian|	克罗地亚语|	hr_HR|
+|čeština|	Czech|	捷克语|	cs_CZ|
+|Dansk|	Danish|	丹麦语|	da_DK|
+|ελληνικά|	Greek|	希腊语|	el_GR|
+|עברית|	Hebrew|	希伯来语（以色列)|	he_IL|
+|עברית|	Hebrew|	希伯来语（以色列)|	iw_IL|
 
-Français	French	法语	fr_FR
-Français	French	法语（比利时)	fr_BE
-Français	French	法语（加拿大)	fr_CA
-Français	French	法语（瑞士)	fr_CH
-Deutsch	German	德语	de_DE
-Deutsch	German	德语（列支敦斯登)	de_LI
-Deutsch	German	德语（奥地利)	de_AT
-Deutsch	German	德语（瑞士)	de_CH
-Italiano	Italian	意大利语	it_IT
-Italiano	Italian	意大利语（瑞士)	it_CH
-Protuguês	Portuguese	葡萄牙语（巴西）	pt_BR
-Protuguês	Portuguese	葡萄牙语	pt_PT
-Español	Spanish	西班牙语	es_ES
-Español	Spanish	西班牙语（美国)	es_US
-বাংলা	Bengali	孟加拉语	bn_BD
-বাংলা	Bengali	孟加拉语（印度)	bn_IN
-hrvatski	Croatian	克罗地亚语	hr_HR
-čeština	Czech	捷克语	cs_CZ
-Dansk	Danish	丹麦语	da_DK
-ελληνικά	Greek	希腊语	el_GR
-עברית	Hebrew	希伯来语（以色列)	he_IL
-עברית	Hebrew	希伯来语（以色列)	iw_IL
+
+
 हिंदी	Hindi	印度语	hi_IN
-Magyar	Hungarian	匈牙利语	hu_HU
- 	Indonesian	印度尼西亚语	in_ID
-日本語の言語	Japanese	日语	ja_JP
-한국의	Korean	韩语（朝鲜语）	ko_KR
-Bahasa Melayu	Malay	马来语	ms_MY
+|Magyar	Hungarian	匈牙利语	hu_HU
+|Indonesian	印度尼西亚语	in_ID
+|日本語の言語	Japanese	日语	ja_JP
+|한국의	Korean	韩语（朝鲜语）	ko_KR
+|Bahasa Melayu	Malay	马来语	ms_MY
 فارسی	Perisan	波斯语	fa_IR
 Polski	Polish	波兰语	pl_PL
 româna	Romanian	罗马尼亚语	ro_RO
